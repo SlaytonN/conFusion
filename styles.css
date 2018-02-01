@@ -29,25 +29,33 @@ address{
     color:#0f0f0f;
 }
 
-body{
+/*body{
     z-index:0;
     padding:50px 0px 0px 0px;
-}
+}*/
 
-.navbar-inverse {
+.navbar-dark {
      background-color: #512DA8;
 }
-.navbar.container.navbar-nav li a{
-  color: floralwhite;
-}
-.navbar-brand{
-  color: floralwhite;
-}
-.nav-link{
-  color: floralwhite;
-  display: inline;
+
+nav {
+text-align: center;
+
 }
 
-.glyphicon{
+nav ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+  justify-content: space-around;
+}
+
+nav li {
+   display: inline-block;
+   padding: 5px 5px;
+
+}
+
+nav a{
   color: floralwhite;
 }
