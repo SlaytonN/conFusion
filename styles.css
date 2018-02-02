@@ -37,3 +37,17 @@ body{
 .navbar-dark {
      background-color: #512DA8;
 }
+
+.card-header{
+  background-color: orange;
+  color: floralwhite;
+}
+
+input[type="radio"].form-check{
+  background: red;
+}
+
+#link-btn{
+  background-color: orange;
+  color: floralwhite;
+}
